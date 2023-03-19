@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" />
+  <title>TabManager</title>
+</head>
+
+<body>
+  <div class="popup-container">
+    <h1>TabManager</h1>
+    <div class="input-buttons">
+      <div class="button-container">
+        <button class="button" id="add-current-group-button">Add Current Group</button>
+      </div>
+    </div>
+    <div id="groups-container">
+      <!-- The displayGroups function in popup.js will populate this container with groups -->
+    </div>
+    <input type="text" id="new-group-name" class="input" placeholder="New group name">
+
+  </div>
+  <div class="links-container">
+    <a href="https://github.com/bagcivan" target="_blank" class="link" title="Contribute on Github">
+      <i class="fab fa-github"></i></a>
+    <a href="https://twitter.com/bagcivan" target="_blank" class="link" title="Twitter">
+      <i class="fab fa-twitter"></i></a>
+  </div>
+  <script src="popup.js"></script>
+
+</body>
+
+</html>

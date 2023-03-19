@@ -1,0 +1,255 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.popup-container {
+  width: 300px;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 20px;
+  margin: 0 0 10px;
+  text-align: center;
+  font-weight: bold;
+  color: #4a4a4a;
+}
+
+.group {
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  padding: 8px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.group-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.group-name {
+  font-size: 14px;
+  font-weight: bold;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex-grow: 1;
+  margin-right: 5px;
+  cursor: pointer;
+  color: #007bff;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+.group-name:hover {
+  color: #5a299c;
+}
+
+.buttons,
+.input-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.button {
+  background-color: #7db9e8;
+  border: none;
+  border-radius: 2px;
+  padding: 4px 8px;
+  color: white;
+  cursor: pointer;
+  font-size: 12px;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #5a9cd2;
+}
+
+.group-buttons {
+  font-size: 10px;
+  margin: 3px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.group:hover .group-buttons {
+  opacity: 1;
+}
+
+.edit-button,
+.delete-button,
+.collapsible {
+  border: none;
+  border-radius: 2px;
+  padding: 4px;
+  cursor: pointer;
+  font-size: 10px;
+  text-align: center;
+}
+
+.url-item:hover .delete-url-button {
+  opacity: 1;
+}
+
+.input {
+  padding: 4px;
+  border: 1px solid #e0e0e0;
+  border-radius: 2px;
+  font-size: 12px;
+  margin-right: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.urls-container {
+  padding: 4px;
+  width: 100%;
+}
+
+.url-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3px;
+}
+
+.url-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex-grow: 1;
+  margin-right: 5px;
+}
+
+.url-text:hover {
+  text-decoration: underline;
+
+}
+
+.delete-url-button {
+  background-color: transparent;
+  border: none;
+  color: #333;
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 0 3px;
+  opacity: 0;
+  transition: color 0.3s ease-in-out;
+}
+
+.edit-button:hover {
+  color: #42c15b;
+}
+
+.delete-button:hover,
+.delete-url-button:hover {
+  color: #d93025;
+}
+
+.collapsible:hover {
+  color: #5a9cd2;
+}
+
+.add-url-input {
+  border: none;
+  padding: 4px;
+  width: 100%;
+  outline: none;
+  font-size: 12px;
+}
+
+.thumbnail {
+  width: 12px;
+  height: 12px;
+  margin-right: 8px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.links-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.links-container a {
+  font-size: 15px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.links-container .fa-github {
+  color: black;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+.links-container .fa-github:hover {
+  color: #333;
+}
+
+.links-container .fa-twitter {
+  color: #00acee;
+
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+.links-container .fa-twitter:hover {
+  color: blue;
+}
+
+.input-prompt-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+#input-prompt-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#group-select,
+#new-group-input {
+  width: 100%;
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+#input-prompt-submit {
+  background-color: #7db9e8;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 14px;
+  transition-duration: 0.4s;
+}
+
+#input-prompt-submit:hover {
+  background-color: #5a9cd2;
+}
