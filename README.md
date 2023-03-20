@@ -2,6 +2,9 @@
 
 Tab Group Manager is a powerful and user-friendly Google Chrome extension that enables users to efficiently manage their browser tabs by organizing them into customizable groups. This handy extension not only helps in keeping your browser clean and clutter-free but also makes it easier to manage and access your favorite websites and resources.
 
+![Extension](https://imgur.com/NsM6Ocs.jpg "TabManager")(https://chrome.google.com/webstore/detail/tab-manager/cinjilggcpgihcocibnjkdknbpckcdli?hl=en&authuser=0)
+
+
 ![Screenshot](https://imgur.com/bDOKny0.jpg "TabManager")
 ![Screenshot](https://imgur.com/jjdcXp2.jpg "TabManager")
 
@@ -23,6 +26,7 @@ Tab Group Manager is a powerful and user-friendly Google Chrome extension that e
 2. Open Google Chrome and navigate to `chrome://extensions/`.
 3. Enable "Developer mode" by toggling the switch in the top right corner.
 4. Click the "Load unpacked" button and select the directory containing the downloaded repository.
+5. You can donwload from store https://chrome.google.com/webstore/detail/tab-manager/cinjilggcpgihcocibnjkdknbpckcdli?hl=en&authuser=0
 
 ## Usage
 
